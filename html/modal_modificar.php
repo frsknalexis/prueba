@@ -1,0 +1,39 @@
+<div class="modal fade" id="dataUpdate">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form name="edit_product" id="edit_product">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Modificar Pais: </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="codigo" class="control-label">Codigo: </label>
+                        <input type="text" class="form-control" id="codigo" name="codigo" required maxlength="2">
+                        <input type="hidden" class="form-control" id="id" name="id">
+                    </div>
+                    <div class="form-group">
+                        <label for="nombre" class="control-label">Nombre: </label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required maxlength="45">
+                    </div>
+                    <div class="form-group">
+                        <label for="moneda" class="control-label">Moneda: </label>
+                        <input type="text" class="form-control" id="moneda" name="moneda" required maxlength="3">
+                    </div>
+                    <div class="form-group">
+                        <label for="capital" class="control-label">Capital: </label>
+                        <input type="text" class="form-control" id="capital" name="capital" required maxlength="30">
+                    </div>
+                    <div class="form-group">
+                        <label for="continente" class="control-label">Continente: </label>
+                        <input type="text" class="form-control" id="continente" name="continente" required maxlength="15">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary">Actualizar Datos</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
